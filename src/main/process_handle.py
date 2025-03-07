@@ -1,10 +1,10 @@
 #process manaer/orchestrator
 #point to constructors
-from .constructor.introduction_process import IntroductionProcess
+from .constructor.introduction_process import introduction_process
 
 def start():
     while True:
-        command = IntroductionProcess()
+        command = introduction_process()
         if command == '1':
             print('You have selected 1')
         elif command == '2':
