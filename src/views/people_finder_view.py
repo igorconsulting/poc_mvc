@@ -7,7 +7,7 @@ class PeopleFinderView:
         """View para cadastro de pessoas."""
         self.clear_screen = clear_screen
 
-    def find_person_view(self) -> Dict:
+    def person_finder_view(self) -> Dict:
         """
         Exibe a interface para buscar uma pessoa pelo nome.
 
