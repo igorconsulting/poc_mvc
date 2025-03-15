@@ -1,6 +1,6 @@
 import os
 from typing import Dict
-from utils import ConsoleUtils
+from src.views.utils import ConsoleUtils
 
 class PeopleFinderView:
     def __init__(self, clear_screen: bool = True):

@@ -1,4 +1,4 @@
-from utils import ConsoleUtils
+from src.views.utils import ConsoleUtils
 from typing import Dict, Optional
 
 class PeopleRegisterView:
